@@ -3,7 +3,7 @@ import { Mail, Github, Linkedin } from 'lucide-react';
 
 export default function Contact() {
   return (
-    <div className="relative py-24 border-t border-white/10">
+    <div className="relative py-24 border-top border-white/10">
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-fuchsia-500/5 to-indigo-500/10" />
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
@@ -52,7 +52,11 @@ export default function Contact() {
           <div className="flex items-center gap-4">
             <a href="#hero" className="hover:text-white transition">Back to top</a>
             <span className="text-white/20">•</span>
+            <a href="#toolkit" className="hover:text-white transition">Toolkit</a>
+            <span className="text-white/20">•</span>
             <a href="#projects" className="hover:text-white transition">Projects</a>
+            <span className="text-white/20">•</span>
+            <a href="#experience" className="hover:text-white transition">Experience</a>
             <span className="text-white/20">•</span>
             <a href="#contact" className="hover:text-white transition">Contact</a>
           </div>

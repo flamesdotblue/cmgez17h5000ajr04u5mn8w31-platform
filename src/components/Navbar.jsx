@@ -1,5 +1,5 @@
 import React from 'react';
-import { Rocket, Folder, Mail } from 'lucide-react';
+import { Rocket, Folder, Mail, Cpu, Briefcase } from 'lucide-react';
 
 export default function Navbar() {
   return (
@@ -13,7 +13,9 @@ export default function Navbar() {
             <span className="font-semibold tracking-tight">Futura Portfolio</span>
           </a>
           <nav className="hidden md:flex items-center gap-6 text-sm">
+            <a href="#toolkit" className="text-white/80 hover:text-white transition flex items-center gap-2"><Cpu className="h-4 w-4" /> Toolkit</a>
             <a href="#projects" className="text-white/80 hover:text-white transition flex items-center gap-2"><Folder className="h-4 w-4" /> Projects</a>
+            <a href="#experience" className="text-white/80 hover:text-white transition flex items-center gap-2"><Briefcase className="h-4 w-4" /> Experience</a>
             <a href="#contact" className="text-white/80 hover:text-white transition flex items-center gap-2"><Mail className="h-4 w-4" /> Contact</a>
             <a href="https://github.com/" target="_blank" rel="noreferrer" className="text-white/80 hover:text-white transition">GitHub</a>
           </nav>
